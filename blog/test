@@ -1,0 +1,231 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+	<div class="wrap-timeline-detail">
+
+		<div class="wrap-tl-nav">
+
+			<div class="tl-nav timeline-nav">
+				<ul class="tl-nav-list">
+					<li><button class="tl-item"><span class="tl-icon career"></span><span class="tl-txt">경력</span></button></li>
+					<li><button class="tl-item"><span class="tl-icon education"></span><span class="tl-txt">학력</span></button></li>
+					<li><button class="tl-item"><span class="tl-icon activity"></span><span class="tl-txt">활동</span></button></li>
+					<li><button class="tl-item"><span class="tl-icon archive"></span><span class="tl-txt">수상 &#47; 자격 &#47; 어학</span></button></li>
+				</ul>
+			</div>
+
+			<!-- 도움말 -->
+			<div class="wrap-pihelpconts">
+				<div class="pihpconts">
+					<div class="title">
+						프로필 이렇게 작성하세요 <span class="close-btn" id='timeline-closeHelp'><i class="material-icons">&#xE14C;</i></span>
+					</div>
+					<article class="pi-list">
+						<section>
+							<ul>
+								<li class="tt"><img alt="" src="/resources/images/helpimg/hpicon-01.png?v=2"></li>
+								<li class="txt">학력, 경력, 활동, 성취 항목을 작성하면 타임라인 형태의 프로필과 이력서가 만들어집니다.</li>
+							</ul>
+						</section>
+						<section>
+							<ul>
+								<li class="tt"><img alt="" src="/resources/images/helpimg/hpicon-02.png?v=2"></li>
+								<li class="txt">노트를 이용하여 사진, 웹링크, 글을 프로필과 이력서에 넣을 수 있습니다.</li>
+							</ul>
+						</section>
+						<section>
+							<ul>
+								<li class="tt"><img alt="" src="/resources/images/helpimg/hpicon-03.png?v=2"></li>
+								<li class="txt">태그를 입력하면 경력이나 업무 성향을 나타낼 수 있고, 매칭 서비스를 이용할 수 있습니다.</li>
+							</ul>
+						</section>
+						<section>
+							<ul>
+								<li class="tt"><img alt="" src="/resources/images/helpimg/hpicon-04.png?v=2"></li>
+								<li class="txt">프로필 주소(URL)를 설정하면 나만의 페이지 주소를 갖게 됩니다.<br>
+								프로필 주소는 이력서에 기록되며, 자기 PR 용도로 활용됩니다.</li>
+							</ul>
+						</section>
+					</article>
+				</div>
+			</div>
+			<!-- //도움말 -->
+
+
+		</div>
+
+		<div class="wrap-tl-body">
+
+			<div class="timeline-contents" style="cursor:pointer;">
+
+				<div class="timeline">
+					<ul>
+						<li>
+							<strong class="timeline-year" style="top: 5px">2018</strong>
+							<ul>
+								<li>
+									<div class="timeline-graph graph-career" style="top: 1px; height:639px;"></div>
+									<div class="point-line point-career" style="top: 10px"></div>
+									<span class="title title-career " id="cltitle_2018_0">
+										<em class="text">프로필 프로필 프로필</em> <em class="S" id="CAR_1"></em>
+									</span>
+									<span class="list-date">2017.01.01 ~ 현재</span>
+								</li>
+								<li>
+									<div class="timeline-graph graph-education" style="top: 1px; height:979px;"></div>
+									<span class="title title-education " id="cltitle_2018_1"><em class="text">한양대학교국제학대학원 국제비서학 석사</em> <em class="S" id="EDU_4728_10352"></em></span>
+									<span class="list-date">2013.01.01 ~ 현재 </span>
+								</li>
+								<li>
+									<div class="timeline-graph graph-activity" style="top: 1px; height:1039px;"></div>
+									<span class="title title-activity " id="cltitle_2018_2"><em class="text">프로필 프로필</em> <em class="S" id="ACT_1"></em></span>
+									<span class="list-date">2012.01.01 ~ 현재 </span>
+
+									<ul class="story-list">
+										<li id="careerLine_ST180629A00003">
+											<a class="clearfix clLinkStory" href="#ST180629A00003" onclick="">
+												<div class="thumb"><img src="//i1.daumcdn.net/svc/image/U03/common_icon/5587C4E4012FCD0001" width="100%" height="auto" alt=""></div>
+												<div class="info"><strong >우왕 ㅎㅎㅎㅎ  ogoggjqlejr;qjwe;rlqjwe;rjqw;er</strong><span><i class="material-icons">link</i>2018.06.29</span></div>
+											</a>
+										</li>
+										<li id="careerLine_ST180629A00001">
+											<a class="clearfix clLinkStory" href="#ST180629A00001" onclick="">
+												<div class="thumb">
+												<img src="https://cdn.businesspeople.co.kr/dev/story/cardview/ST180629A00001/1530239986489.gif"
+												width="100%" height="auto" alt=""></div>
+												<div class="info"><strong >이런저런 일을했죵</strong><span><i class="material-icons">link</i>2018.06</span></div>
+											</a>
+										</li>
+										<li id="careerLine_ST180629A00004">
+											<a class="clearfix clLinkStory" href="#ST180629A00004" onclick="">
+												<div class="info"><strong >gpgpgpqwerqwel;jrqwer
+일반 텍스트</strong><span>2018.04.29</span></div>
+											</a>
+										</li>
+										<li id="careerLine_ST180629A00005">
+											<a class="clearfix clLinkStory" href="#ST180629A00005" onclick="">
+												<div class="thumb"><img src="https://cdn.businesspeople.co.kr/dev/story/cardview/ST180629A00005/1530240685777.png" width="100%" height="auto" alt=""></div>
+												<div class="info"><strong >포토 텍스트</strong><span><i class="material-icons">link</i>2018.02</span></div>
+											</a>
+										</li>
+									</ul>
+
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong class="timeline-year" style="top: 585px">2017</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2017_0"></span>
+									<span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong class="timeline-year" style="top: 645px">2016</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2016_0"></span>
+									<span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 705px">2015</strong>
+							<ul>
+								<li>
+									<div class="timeline-graph graph-other" style="top: 701px; height:59px;"></div>
+									<div class="point-line point-other" style="top: 710px"></div>
+									<span class="title title-other " id="cltitle_2015_0"><em class="text">프로필 프로필</em> <em class="S" id="ETC_1"></em></span>
+									<span class="list-date">2015.03.01 ~ 2015.03.01</span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 765px">2014</strong>
+							<ul>
+								<li>
+									<div class="timeline-graph graph-other" style="top: 761px; height:159px;"></div>
+									<div class="point-line point-other" style="top: 770px"></div>
+									<span class="title title-other " id="cltitle_2014_0"><em class="text">프로필 프로필</em> <em class="S" id="ETC_2"></em></span>
+									<span class="list-date">2014.04.01 ~ 2014.04.01</span>
+
+
+									<ul class="story-list">
+										<li id="careerLine_ST180629A00003">
+											<a class="clearfix clLinkStory" href="#ST180629A00003" onclick="">
+												<div class="thumb"><img src="//i1.daumcdn.net/svc/image/U03/common_icon/5587C4E4012FCD0001" width="100%" height="auto" alt=""></div>
+												<div class="info"><strong >우왕 ㅎㅎㅎㅎ  ogog</strong><span><i class="material-icons">link</i>2018.06.29</span></div>
+											</a>
+										</li>
+									</ul>
+
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong class="timeline-year" style="top: 925px">2013</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2013_0"></span> <span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 985px">2012</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2012_0"></span> <span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 1045px">2011</strong>
+							<ul>
+								<li>
+									<div class="timeline-graph graph-education" style="top: 1041px; height:179px;"></div>
+									<div class="point-line point-education" style="top: 1050px"></div>
+									<span class="title title-education " id="cltitle_2011_0"><em class="text">AmericanSchoolofParis 디스플레이전자 학사</em> <em class="S" id="EDU_906_10357"></em></span>
+									<span class="list-date">2009.03.01 ~ 2011.03.01</span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 1105px">2010</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2010_0"></span> <span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+						<li><strong class="timeline-year" style="top: 1165px">2009</strong>
+							<ul>
+								<li>
+									<span class="title" id="cltitle_2009_0"></span> <span class="list-date"></span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- // Career Line Area -->
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//도움말
+			$('#timeline-help').on('click',function(){
+				$('.wrap-pihelpconts').show();
+			});
+
+			//도움말 닫기
+			$('#timeline-closeHelp').on('click',function(){
+				$('.wrap-pihelpconts').hide();
+			});
+
+			//홈으로가기
+			$('#timeline-home').on('click',function(){
+				location.href = "/";
+			});
+
+			$(window).unbind('scroll');
+		});
+	</script>
